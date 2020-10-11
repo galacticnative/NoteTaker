@@ -1,7 +1,7 @@
 const express = require('express');
-const { notes } = require('./data/db.json')
-const fs = require('fs');
-const path = require('path');
+//const { notes } = require('./data/db.json')
+const apiRoutes = require('./routes/apiRoutes');
+const htmlRoutes = require('./routes/htmlRoutes');
 
 //to allow Heroku to convert server to port 80
 const PORT = process.env.PORT || 3001;
@@ -15,7 +15,8 @@ app.use(express.json());
 
 //gathers data from public folder such as index.html and script files
 app.use(express.static('public'));
-app.use('/apiRoutes', notesRoutes);
+app.use('/api', apiRoutes);
+app.use('/', htmlRoutes);
 
 
 
