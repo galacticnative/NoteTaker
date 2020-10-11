@@ -1,8 +1,16 @@
 {
-    "database": [
-        {"title":"Test Title",
-         "text":"Test text", 
-         "id": "test_id"
-        }
+  "notes": [
+    {
+      "title": "Test Title",
+      "text": "Test text",
+      "id": "0"
+    },
+    [
+      {
+        "title": "Monday",
+        "text": "I have an oil change",
+        "id": "3"
+      }
     ]
+  ]
 }
