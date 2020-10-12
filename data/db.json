@@ -1,34 +1,9 @@
 {
   "notes": [
     {
-      "title": "Test Title",
-      "text": "Test text",
+      "title": "",
+      "text": "",
       "id": "0"
-    },
-    {
-      "title": "sunday",
-      "text": "funday",
-      "id": "1"
-    },
-    {
-      "title": "monday",
-      "text": "oil change",
-      "id": "2"
-    },
-    {
-      "title": "tuesday",
-      "text": "ortho",
-      "id": "3"
-    },
-    {
-      "title": "wednesday ",
-      "text": "no work\n",
-      "id": "4"
-    },
-    {
-      "title": "thursday",
-      "text": "go to work",
-      "id": "5"
     }
   ]
 }
