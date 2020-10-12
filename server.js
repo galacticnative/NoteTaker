@@ -19,27 +19,6 @@ app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
 
 
-
-
-// app.get('/api/notes', (req, res) => {
-//     let results = notes
-    
-//     res.json(results);
-// })
-
-// app.get('/api/notes/:id', (req, res) => {
-//     const result = findById(req.params.id, notes);
-//       res.json(result);
-// });
-
-// app.post('/api/notes', (req, res) => {
-//     req.body.id = notes.length.toString();
-
-//     const note = createNewNotes(req.body, notes);
-
-//     res.json(note);
-// });
-
 app.listen(PORT, () => {
     console.log(`API server now on port ${PORT}!`);
 });
